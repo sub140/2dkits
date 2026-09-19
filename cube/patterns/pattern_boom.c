@@ -14,7 +14,7 @@ void main(void) {
 
     uint8_t color, red_up, green_up, blue_up;
 
-    for (color=1;color < 8;color++) {
+    for (color=5;color < 6;color++) {
         red_up     = (color & 0x01)? LED_PLUS  : LED_NOOP; 
         green_up   = (color & 0x02)? LED_PLUS  : LED_NOOP; 
         blue_up    = (color & 0x04)? LED_PLUS  : LED_NOOP; 
